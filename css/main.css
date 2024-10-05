@@ -1,0 +1,148 @@
+/*
+    Name: Shatat Al Hamid
+    Class: MEDE 101 301
+    Description: Main style page across all webpages for Assignment 1: Portfolio
+*/
+
+* {
+	font-family: "Montserrat Light", sans-serif;
+	text-align: left;
+	text-justify: inter-word;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	pointer-events: none;
+}
+
+body {
+	background-color: #2f3032;
+}
+
+/*Main Homepage Heading*/
+h1 {
+	letter-spacing: 0.5vw;
+	font-size: 7.5vw;
+	text-align: center;
+	color: aliceblue;
+}
+
+/*General Heading*/
+h2 {
+	letter-spacing: 0.25vw;
+	font-size: 4vw;
+	padding-left: 2%;
+	padding-top: 1.5vw;
+	padding-bottom: 1.5vw;
+	color: rgb(184, 195, 205);
+}
+
+/*SubHeading*/
+h3 {
+	letter-spacing: 0.25vw;
+	font-size: 2.5vw;
+	color: rgb(168, 184, 198);
+	padding-left: 2%;
+}
+
+h5 {
+	font-family: "Montserrat Light", sans-serif;
+	letter-spacing: 0.25vw;
+	color: aliceblue;
+}
+
+h6,
+p,
+a {
+	font-size: 1.5vw;
+	font-family: "Montserrat Thin", sans-serif;
+	letter-spacing: 0.2vw;
+	word-spacing: 0.5vw;
+	color: rgb(129, 140, 148);
+	text-decoration: none;
+	padding-left: 2%;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 60vw 55vw;
+	column-gap: 1.5vw;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: right;
+	padding-left: 0.25vw;
+	background-color: rgb(28, 29, 29);
+	position: sticky; /*how to make sticky*/
+}
+
+.nav_links,
+a {
+	color: rgb(65, 64, 64);
+	text-decoration: none;
+}
+
+.nav_links li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	margin: 2vw;
+}
+
+.nav_links li a.active {
+	color: aliceblue;
+}
+
+.nav_links li a.disabled {
+	color: rgb(66, 71, 76);
+}
+
+.nav_links li a:hover {
+	color: rgb(133, 141, 147);
+}
+
+.drop-down {
+	width: auto;
+	position: absolute;
+	background-color: rgb(28, 29, 29);
+	padding: 0.25vw;
+	text-align: center;
+	display: none;
+	cursor: pointer;
+}
+
+ul li:hover ul.drop-down {
+	display: block;
+}
+
+.drop-down li:hover {
+	color: aliceblue;
+}
+
+footer {
+	overflow: hidden;
+	background-color: rgb(28, 29, 29);
+	top: 0;
+	margin: 0%;
+	padding: 3%;
+}
+
+footer a {
+	font-size: 1.25vw;
+	text-decoration: underline;
+	display: block;
+	color: rgb(133, 141, 147);
+}
+
+/*__________________TEST___________________*/

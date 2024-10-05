@@ -1,0 +1,68 @@
+/*
+    Name: Shatat Al Hamid
+    Class: MEDE 101 301
+    Description: Contact style page for Assignment 1: Portfolio
+*/
+
+.box {
+	border-radius: 10px;
+	border: 0.2vw solid rgb(168, 184, 198);
+	background-color: rgb(33, 37, 40);
+	box-shadow: 0.5vw 0.5vw 0.5vw;
+}
+
+form {
+	padding: 1.5vw;
+}
+
+/*Form text style*/
+input[type="text"],
+input[type="textarea"],
+select,
+textarea {
+	width: 100%;
+	border: 0.2vw solid rgb(168, 184, 198);
+	color: rgb(184, 195, 205);
+	padding: 0.8vw;
+	background-color: rgb(33, 37, 40);
+	border-radius: 0.6vw;
+	box-sizing: border-box;
+	resize: vertical;
+	font-size: 1.5vw;
+	margin-bottom: 1.5vw;
+}
+
+input[type="submit"],
+input[type="reset"] {
+	letter-spacing: 0.25vw;
+	font-size: 1.5vw;
+	color: rgb(168, 184, 198);
+	background-color: rgb(33, 37, 40);
+	border: 0.2vw solid rgb(33, 37, 40);
+	padding: 0.4vw;
+	border-radius: 0.4vw;
+	cursor: pointer;
+}
+
+/*When buttons are hovered*/
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+	color: #2f3032;
+	background-color: rgb(168, 184, 198);
+}
+
+.column {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 50vw 45vw;
+	column-gap: 1.5vw;
+}
+
+a {
+	font-family: Montserrat Thin;
+	color: rgb(129, 140, 148);
+}
+
+p {
+	padding: 1vw;
+}
