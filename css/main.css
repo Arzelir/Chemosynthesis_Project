@@ -2,6 +2,11 @@
 	font-family: "Montserrat Light", sans-serif;
 }
 
+body{
+	/* background-color: #5bb5e6; */
+	background-color: #7ab9d8;
+}
+
 img {
 	pointer-events: none;
 }
