@@ -6,80 +6,24 @@ img {
 	pointer-events: none;
 }
 
-/*Main Homepage Heading*/
 h1 {
 	letter-spacing: 0.5vw;
-	font-size: 7.5vw;
+	font-size: 4vw;
 }
 
-/*General Heading*/
 h2 {
 	letter-spacing: 0.25vw;
-	font-size: 4vw;
+	font-size: 1.5vw;
 	padding-top: 1.5vw;
 	padding-bottom: 1.5vw;
 }
 
-h6,
-p,
 a {
 	letter-spacing: 0.1vw;
 	word-spacing: 0.5vw;
 	text-decoration: none;
 }
 
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.column {
-	display: grid;
-	align-items: center;
-	grid-template-columns: 60vw 55vw;
-	column-gap: 1.5vw;
-}
-
-.nav_links,
-a {
-	color: rgb(65, 64, 64);
-	text-decoration: none;
-}
-
-.nav_links li {
-	list-style: none;
-	display: inline-block;
-	position: relative;
-	margin: 2vw;
-}
-
-.nav_links li a.active {
-	color: aliceblue;
-}
-
-.nav_links li a.disabled {
-	color: rgb(66, 71, 76);
-}
-
-.nav_links li a:hover {
-	color: rgb(133, 141, 147);
-}
-
-.drop-down {
-	width: auto;
-	position: absolute;
-	background-color: rgb(28, 29, 29);
-	padding: 0.25vw;
-	text-align: center;
-	display: none;
-	cursor: pointer;
-}
-
-ul li:hover ul.drop-down {
-	display: block;
-}
-
-.drop-down li:hover {
-	color: aliceblue;
+p{
+	letter-spacing: 0.1vw;
 }
