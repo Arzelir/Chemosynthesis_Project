@@ -1,81 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/main.css" />
-		<title>About</title>
-	</head>
-	<body>
-	<!-- Nav Bar Section -->
-	<section id="navigation">
-		<!--Navbar-->
-		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-			<!-- Making the header span the entire page -->
-			<div class="container-fluid">
-				<!-- Bootstrap navbar formatting -->
-				<ul class="navbar-nav">
-					<ul class="nav_links">
-						<li class="nav-item">
-							<a class="nav-link" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" href="#">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Sources</a>
-						</li>
-					</ul>
-				</ul>
-			</div>
-		</nav>
-	</section>
 
-		<h2>Who Am I?</h2>
+<!-- Head Links -->
 
-		<div class="column" style="padding-left: 0.5vw">
-			<p>
-				<!--Paragraph-->
-				My name is Shatat Al Hamid. I am a passionate freelance graphic designer
-				on a mission to transform unique concepts and ideas into extraordinary
-				visual elements and finalized products. I mainly work with The Adobe
-				Creative Suite, Figma, Procreate, and many other design software to
-				create and develop any Graphic or UX Design projects I work on.
-				<br />
-				<br />
-				With my artistic vision and a keen eye for detail, I work with clients
-				to breathe life into brands, logos, and marketing materials, crafting
-				captivating designs that demand attention. My client process includes
-				5-10 sketches and ideation pieces, 3-5 mockups, and finally, a beautiful
-				finished piece!
-				<br />
-				<br />
-				If you would like to contact me, please go to the Contact tab above!
-				Thanks for dropping by!
-			</p>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css" />
+	<title>About</title>
+</head>
 
-			<img
-				style="width: 60%; height: auto; padding-top: 3%"
-				src="pictures/Shatat.JPG"
-				alt="That's Me!"
-			/>
-		</div>
-	</body>
+<body class="d-flex flex-column min-vh-100">
+  <!-- Nav Bar Section -->
+  <section id="navigation">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <!-- Making the navbar span the entire page -->
+      <div class="container-fluid justify-content-end">
+        <!-- Bootstrap navbar formatting -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sources.html">Sources</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+  </section>
+
+  <div class="p-1 bg-primary">
+    <h2 class="text-white text-center">About</h2>
+  </div>
+
+  <h2 class="p-4 text-center">
+	Who We Are
+</h2>
+<p class="p-2 text-center">
+We are University students from across Ontario. This will be our second time competing in this hackathon. After competing for the first time last year, we decided to come back to this hackathon and try it again.
+</p>
+
+		<img style="width: 60%; height: auto; padding-top: 3%" src="pictures/Shatat.JPG" alt="That's Me!" />
+	</div>
+</body>
 
 <!-- Footer -->
 <!-- Making the background of the footer -->
-<div class="mt-auto p-4 bg-dark">
-	<!-- Footer Header Text -->
-	<p class="text-center text-white">
-		Contact Information:
-	</p>
-	<!-- Footer Links -->
-	<div class="d-flex align-items-center flex-column">
-		<a href="#" class="text-white">Github</a>
-		<a href="#" class="text-white">Email</a>
-		<a href="#" class="text-white">Top Of Page</a>
-	</div>
+<div class="mt-auto p-2 bg-dark container-fluid">
+	<section>
+		<!-- Footer Links -->
+		<nav class="navbar bg-dark navbar-dark container-fluid justify-content-center">
+			  <!-- Bootstrap footer formatting -->
+			  <ul class="navbar-nav align-items-center">
+				<!-- Footer items -->
+				<li class="nav-item">
+				  <a class="nav-link active" href="#">Contact Information:</a>
+				</li>
+				<li class="nav-item active">
+				  <a class="nav-link active" href="about.html">Github</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link active" href="sources.html">Email</a>
+				</li>
+			</ul>
+		</nav>
+	</section>
 </div>
 
 </html>
