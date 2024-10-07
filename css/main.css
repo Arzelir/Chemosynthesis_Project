@@ -2,7 +2,7 @@
 	font-family: "Montserrat Light", sans-serif;
 }
 
-body{
+body {
 	/* background-color: #5bb5e6; */
 	background-color: #7ab9d8;
 }
@@ -29,6 +29,6 @@ a {
 	text-decoration: none;
 }
 
-p{
+p {
 	letter-spacing: 0.1vw;
 }
